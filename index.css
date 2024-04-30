@@ -30,14 +30,20 @@ body{
     
     
 }
-.logo-img-div{
-  display: flex;
-  
-  flex-direction: column;
+._8esl{
+    box-sizing: border-box;
+    margin-right: 0;
+    padding-right: 128px;
+    width: 554px;
+    height: 261px;
+    margin-top: 55px;
+    padding-left: 26px;
 }
+ 
     
-    
-
+._8ice{
+    padding: 112px 0 16px;
+}    
 .inner-div{
     width: 1010px;
     display: inline-flex;
@@ -56,35 +62,30 @@ body{
 }
 .logo-img{
     height: 106px;
-    
-    
-}
-.img-small-div{
-    width: 429px;
-    padding: 112px 0 0px;
+    margin: -28px;  
 }
 
 
-.Facebook-logo-paragraph{
-    padding-right: 32px;
-    width: 481px;
-    margin-right: 0;
-}
+
+
+
 .h2-logo{
     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
-    font-size: 28px;
-    font-weight: normal;
-    line-height: 32px;
-    width: 500px;
-    padding: 0 0 20px;
+font-size: 24px;
+font-weight: 300;
+padding: 0 0 20px;
+margin: 0;
+color: #1c1e21;
 }
+
 .form-main-div{
-    height: 700px;
-    width: 417px;
+    height: 640px;
+    width: 488px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: -35px;
    
     
 }
@@ -96,13 +97,38 @@ body{
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
     box-sizing: border-box;
-    padding: 20px 0 28px;
-    width: 414px;
-    height: 374px;
-    margin: 0px 0px 0px 0px;
-   
+    padding-bottom: 24px;
+    padding-top: 10px;
+    width: 396px;
+    
+    height: 350px;
+    margin: 0px 0 0;
 
 }
+._58mk{
+    border-top: none;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 0;
+    margin-top: 25px;
+    
+}
+
+.a_58mk{
+    border-top: none;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.a_58mk:hover{
+    text-decoration: underline;
+    transition: 0.6s;
+}
+
 
 form{
     display: flex;
@@ -113,7 +139,7 @@ form{
 .email-password-div{
     font-size: 17px;
     padding: 0px 16px;
-    width: 375px;
+    width: 372px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -126,10 +152,10 @@ form{
 .email-password-div input{
     font-size: 17px;
     padding: 14px 16px;
-    width: 350px;
+    width: 338px;
     border-radius: 10px;
     border: 1px solid #dddfe2;
-    height: 27px;
+    height: 22px;
     
 }
 .email-password-div input:focus{
@@ -160,15 +186,15 @@ form{
 }
 .forgotten{
     color: #0866ff;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 400;
     cursor: pointer;
     text-decoration: none;
 }
 
 .input-div{
     padding: 6px 0;
-    width: 386px;
+    width: 372px;
     
 
 }
@@ -186,6 +212,25 @@ form{
     padding-top: 6px;
 
 }
+
+.create-acc-button-div{
+    padding-top: 6px;
+
+}
+
+.create-acc-button{
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42b72a;
+    color: #fff;
+    font-weight: 500;
+    
+}
+
+
 .jwjhw{
 
     height: 400px;
