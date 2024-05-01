@@ -19,7 +19,7 @@ body{
 
 .main-div{
     background: #f0f2f5;
-    height: 572px;
+    height: 555px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -173,9 +173,10 @@ form{
     font-size: 20px;
     line-height: 48px;
     padding: 0 16px;
-    width: 375px;
+    width: 370px;
     color: white;
     font-weight: 600;
+    cursor: pointer;
 
 }
 .forgotten-pass-div{
@@ -213,10 +214,6 @@ form{
 
 }
 
-.create-acc-button-div{
-    padding-top: 6px;
-
-}
 
 .create-acc-button{
     border: none;
@@ -227,11 +224,100 @@ form{
     background-color: #42b72a;
     color: #fff;
     font-weight: 500;
+    cursor: pointer;
     
 }
 
 
-.jwjhw{
+._95ke_8opy{
+   
+    padding-top: 20px;
+    display: flex;
+    height: 154px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
-    height: 400px;
+
+.page-footer{
+    color: #737373;
+    margin: 0 auto;
+    width: 980px;
+}    
+    
+
+.ul-top{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-top: 8px;
+    
+}
+.ul-top li{
+    padding-left: 10px;
+    font-size: 12px;
+
+} 
+.ul-top li:hover,.page-footer-child-ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.button-footer{
+    height: 21px;
+    width: 30px;
+    position: relative;
+    margin-left: 10px;
+    border:1px solid #737373;
+    outline: none;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.button-footer-img{
+    height: 12px;
+    position: absolute;
+    width: 11px;
+    top: 3px;
+    left: 8px;
+    opacity: 0.7;
+    
+}
+.footerline{
+    border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 980px;
+}    
+
+.page-footer-child{
+    width: 980px;
+    
+    margin-left: -15px;
+}
+.page-footer-child-ul{
+    list-style: none;   
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: wrap;
+    line-height: 1.6;
+
+}
+
+
+.page-footer-child-ul li{
+    padding-left: 24px;
+    font-size: 12px;
+    color: #8a8d91;
+
+} 
+
+.meta{
+    color: #737373;
+    font-size: 11px;
+    padding-left: 21px;
+    padding-right: 21px;
+    margin-top: 20px;
 }
