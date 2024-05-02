@@ -139,7 +139,7 @@ form{
 .email-password-div{
     font-size: 17px;
     padding: 0px 16px;
-    width: 372px;
+    width: 376px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -152,12 +152,13 @@ form{
 .email-password-div input{
     font-size: 17px;
     padding: 14px 16px;
-    width: 338px;
+    width: 337px;
     border-radius: 10px;
     border: 1px solid #dddfe2;
     height: 22px;
     
 }
+
 .email-password-div input:focus{
     outline-offset: -1px;
     transition: 0.1s;
@@ -166,6 +167,11 @@ form{
     caret-color: #0866ff
     
 }
+
+.email-password-div ::placeholder{
+   color: #b1b1b1 ; 
+}
+
 .log-in-button{
     background-color: #0866ff;
     border: none;
@@ -178,6 +184,10 @@ form{
     font-weight: 600;
     cursor: pointer;
 
+}
+
+.log-in-button:hover{
+opacity: 0.9;
 }
 .forgotten-pass-div{
     margin-top: 16px;
@@ -192,10 +202,12 @@ form{
     cursor: pointer;
     text-decoration: none;
 }
-
+.forgotten:hover{
+    text-decoration: underline;
+}
 .input-div{
     padding: 6px 0;
-    width: 372px;
+    width: 371px;
     
 
 }
@@ -226,6 +238,9 @@ form{
     font-weight: 500;
     cursor: pointer;
     
+}
+.create-acc-button:hover{
+    background-color: #42a32f;
 }
 
 
@@ -263,19 +278,19 @@ form{
     cursor: pointer;
 }
 .button-footer{
-    height: 21px;
-    width: 30px;
+    height: 18px;
+    width: 27px;
     position: relative;
     margin-left: 10px;
-    border:1px solid #737373;
+    border: 0.5px solid rgb(207 201 201);
     outline: none;
     opacity: 0.7;
     cursor: pointer;
 }
 .button-footer-img{
-    height: 12px;
+    height: 10px;
     position: absolute;
-    width: 11px;
+    width: 9px;
     top: 3px;
     left: 8px;
     opacity: 0.7;
